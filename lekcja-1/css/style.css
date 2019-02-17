@@ -102,5 +102,37 @@ input[title$="tni"]{
 }
 
 
+.relative{
+    position: relative;
+}
+
+
+.orange, .grey{
+    height: 300px;
+}
+
+.orange{
+    background-color: orange;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.grey{
+    background-color: grey;
+}
+nav{
+    color: black;
+}
+
+#main-nav{
+    position: sticky;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: yellowgreen;
+}
+
+
 
 
