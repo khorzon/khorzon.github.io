@@ -1,3 +1,6 @@
+*{
+    color: red;
+}
 body{
     background-color: blueviolet;
 }
@@ -5,3 +8,99 @@ body{
 p{
     color: aqua;
 }
+div.connected p{
+    color: coral;
+}
+
+/* dibefore after */
+/* pseudoelementy */
+
+div.connected p::before {
+    content: 'asdede';
+    display: inline-block;
+    /* height: 100px; */
+    /* width: 100px; */
+    /* color: whitesmoke;  */
+    background-color: white;
+}
+div.connected p::after {
+    content: 'after';
+    color: whitesmoke; 
+}
+
+/* pseudoklasy */
+
+.hover a{
+    color: green;
+    text-decoration: none;
+}
+
+.hover a:hover{
+    color: red;
+    
+}
+
+form input:focus{
+    border: 4px solid black;
+    outline: 0; /*outlibne na zero obwódka za obwódką*/
+}
+
+ul li:first-child{
+    color: yellow;
+    font-size: 20px;
+}ul li:last-child{
+    color: brown;
+    font-size: 20px;
+}
+/* co któryś element */
+/* ul li:nth-of-type(3n+2){
+color: orange;
+} */
+
+/* co któryś element */
+ul li:nth-of-type(3n+2){
+    color: orange;
+    }
+
+/* selektor atrybutu*/
+
+input[title]{
+
+    color: blue;
+    border: 2px solid red;
+}
+input[title="wartosc"]{
+
+    color: pink;
+    border: 5px solid gray;
+}
+
+/* sprzawdzamy czy wystepuje konkretny string */
+input[title~="input"]{
+
+    color: pink;
+    border: 20px solid cornflowerblue;
+}
+/* sprawdzamy czy wystepuje wyrywek ciagu znakow */
+input[title*="sio"]{
+
+    color: pink;
+    border: 20px solid blue;
+}
+/* sprawdzamy czy zaczyna sie ciagiem znakow*/
+input[title^="pie"]{
+
+    color: pink;
+    border: 20px solid red;
+}
+
+/* sprawdzamy czy konczy sie ciagiem znakow*/
+input[title$="tni"]{
+
+    color: pink;
+    border: 20px solid orange;
+}
+
+
+
+

@@ -1,0 +1,78 @@
+body{
+    color: #ffffff;
+}
+form{
+    background-color: #213b50;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+select, textarea, input{
+    background-color: #2b4a64;
+    width: 400px;
+    outline: 0;
+    color:  #ffffff;
+    border: 2px solid transparent; 
+    margin: 5px 20px 5px 20px;
+    padding: 5px; 
+    
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    background-color: #4e708c;
+    border: 2px solid #ffffff;
+}
+label, form p{
+display: block;
+margin-left: 20px;
+}
+
+form input:last-child {
+    background: green;
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+textarea{
+    height: 100px;
+}
+
+
+input[type="radio"]{
+    display: inline;
+    text-align: left;
+    width: 10px;
+    padding: 5px;
+}
+p ~ label{
+    display: inline;
+    text-align: left;
+    width: 10px;
+    margin-left: 0;
+}
+
+p ~ label[for="message"]{
+    display: block;
+    /* text-align: left; */
+    width: 10px;
+    margin-left: 20px;
+}
+input#agreement{
+    display: inline;
+    text-align: left;
+    width: 10px;
+}
+
+/* form select{
+    width: 400px;
+} */
+
+/* form label:first-child {
+    margin-top: 40px;
+} */
