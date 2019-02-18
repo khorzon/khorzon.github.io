@@ -1,0 +1,26 @@
+
+@media all and (max-width: 1200px){
+    .background{
+        
+    }
+}
+
+@media all and (max-width: 980px){
+    .background{
+    }
+}
+
+
+@media all and (max-width: 768px){
+    .background{
+        height: 70vh
+    }
+}
+
+
+@media all and (max-width: 480px){
+    #gallery{
+        
+    }
+}
+/* najniższe rozmiary na dół - kaskadowość stylów */
