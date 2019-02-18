@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
 
 
-    <div class="formularz">
+    <div id="formularz">
 
 
         <form action="https://formspree.io/your@email.com" method="POST">
@@ -24,14 +25,20 @@
             <label for="telefon">Telefon</label>
             <input type="text" name="telefon">
             <label for="miasto">Miasto</label>
-            <input type="select" name="miasto">
+            <select name="miasto">
+                <option value="Kraków">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Gdańsk">Gdańsk</option>
+            </select>
 
 
+            <label><input type="radio" name="plec" value="kobieta">Kobieta</label>
+            <label><input type="radio" name="plec" value="mezczyzna">Mężczyzna</label>
 
-
-            <label for="name">Imie</label>
-            <input type="text" name="imie">
-
+            <label for="wiadomosc">Napisz Wiadomość</label>
+            <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea>
+            <label for="zgoda">Zgoda na przetwarzanie danych osobowych </label>
+            <input name="zgoda" type="checkbox">
 
 
 
