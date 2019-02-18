@@ -16,33 +16,38 @@
 
 
         <form action="https://formspree.io/syrathea@gmail.com" method="POST">
-            <label for="name">Imie</label>
-            <input type="text" name="imie">
+            <label for="imie">Imie</label>
+            <input type="text" name="imie" id="imie">
             <label for="nazwisko">Nazwisko</label>
-            <input type="text" name="nazwisko">
+            <input type="text" name="nazwisko" id="nazwisko">
             <label for="mail">E-mail</label>
-            <input type="text" name="mail">
+            <input type="text" name="mail" id="mail">
             <label for="telefon">Telefon</label>
-            <input type="text" name="telefon">
+            <input type="text" name="telefon" id="telefon">
             <label for="miasto">Miasto</label>
-            <select name="miasto">
+            <select name="miasto" id="miasto">
                 <option value="Kraków">Kraków</option>
                 <option value="Warszawa">Warszawa</option>
                 <option value="Gdańsk">Gdańsk</option>
             </select>
 
+            <p>Płeć:</p>
+            <input type="radio" name="plec" value="kobieta" id="kobieta">
+            <label for="kobieta">Kobieta</label>
+            <br>
+            <input type="radio" name="plec" value="mezczyzna" id="mezczyzna">
+            <label for="mezczyzna">Mężczyzna</label>
+            <br>
 
-            <label><input type="radio" name="plec" value="kobieta">Kobieta</label>
-            <label><input type="radio" name="plec" value="mezczyzna">Mężczyzna</label>
-
-            <label for="wiadomosc">Napisz Wiadomość</label>
+            <br>
+            <label for="wiadomosc">Napisz Wiadomość:</label>
             <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea>
+            <br>
+
+            <input name="zgoda" type="checkbox" id="zgoda">
             <label for="zgoda">Zgoda na przetwarzanie danych osobowych </label>
-            <input name="zgoda" type="checkbox">
-
-
-
-            <input type="submit" value="Send">
+            <br>
+            <input type="submit" value="Wyślij dane">
         </form>
 
     </div>
