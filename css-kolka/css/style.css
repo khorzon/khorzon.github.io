@@ -1,0 +1,96 @@
+#main-box{
+    width: 90vh;
+    height: 90vh;
+    margin: 5vh auto;
+    background-color: black;
+    padding: 0.5vh;
+}
+
+.clear{
+    clear: both;
+}
+.inner-circle{
+border-radius: 100%;
+border: 0.2vh solid black;
+margin: auto;
+width: 50%;
+height: 50%;
+position: relative;
+top: 25%;
+}
+.box{
+float: left;
+border: 0.75vh solid white;
+width:29vh;
+height: 29vh;
+}
+/* klasy do zerowania borderów */
+
+.bd_lp{
+    border-left:0;
+    border-right:0;
+}
+
+.bd_gd{
+    border-top:0;
+    border-bottom: 0;
+}
+.bd_all{
+    border: 0;
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: violet;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: black;
+}
+#box6{
+    background-color: orange;
+}
+#box7{
+    background-color: darkblue;
+}
+#box8{
+    background-color: grey;
+
+}
+#box9{
+    background-color: lightpink;
+}
+#circle1{
+    background-color: lightpink;
+}
+#circle2{
+    background-color: grey;
+}
+#circle3{
+    background-color: darkblue;
+}
+#circle4{
+    background-color: green;
+}
+#circle5{
+    background-color: red;
+}
+#circle6{
+    background-color: violet;
+}
+#circle7{
+    background-color: orange;
+}
+#circle8{
+    background-color: yellow;
+}
+#circle9{
+    background-color: black;
+}

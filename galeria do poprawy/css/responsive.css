@@ -1,0 +1,34 @@
+/* @media all and (min-width: 992px){
+    .background {
+        
+    }
+} */
+
+
+
+
+@media all and (max-width: 991px){
+    .background {
+        
+    }
+}
+
+
+
+
+
+
+@media all and (max-width: 768px){
+    .background {
+        
+    }
+}
+
+
+
+
+@media all and (max-width: 480px){
+    #gallery {
+        width: 100%;
+    }
+}

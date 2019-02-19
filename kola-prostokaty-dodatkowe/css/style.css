@@ -1,0 +1,40 @@
+#main-box{
+    width: 70vh;
+    height: 90vh;
+    background-color: greenyellow;
+    position: relative;
+    margin: 5vh auto;
+}
+
+.box{
+    width: 15vh;
+    height: 15vh;
+    background-color: yellow;
+    position: absolute;
+    
+}
+
+.circle{
+    height: 50%;
+    width: 50%;
+    border: 0.4vh;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+}
+
+#box2,
+#circle3{
+    right:0;
+}
+
+#box3,
+#circle2{
+    bottom: 0;
+}
+
+#box4,
+#circle1{
+    bottom:0;
+    right:0;
+}

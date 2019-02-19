@@ -1,0 +1,31 @@
+form{
+    width: 500px;
+    margin: 10vh auto;
+    border: 1px solid lightslategray;
+    border-radius: 3vh;
+    padding: 15px;
+    background-color: lightgrey;
+}
+fieldset{
+    border: 1px solid grey;
+    border-radius: 3vh;
+    padding: 15px;
+    padding-left: 40px;
+}
+h1{
+    color: darkblue;
+}
+p{
+    color: violet;
+}
+input:not([type="number"])
+{
+    width: 75%;
+    margin: 1vh 0;
+}
+input[type="submit"]{
+    width: 20%;
+}
+input[name="books"]{
+    width: 40%;
+}

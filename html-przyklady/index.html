@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <a href="#kotwica">Sekcja o mnie</a>
+    <a href="#kotwica" target="_blank">Sekcja o mnie</a>
+    <a href="mailto:lukasz@kubok.pl">Napisz do </a>
+
+    <table>
+        <thead>
+
+
+            <tr>
+
+
+                <th>Produkt</th>
+                <th>Ilość</th>
+
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Kawa</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Herbata</td>
+                <td>3</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Podsumowanie</td>
+                <td>5</td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+
+
+    <!-- <div id="kotwica">O mnie</div> -->
+
+    <!-- Formularze -->
+
+    <form action="index.html" method="POST">   
+        <!-- POST jest defaultem -->
+        <label for="first-name">Podaj imię</label>
+        <input type="text" id="first-name" name="first-name" maxlength="5" placeholder="Podaj Imię"><br>
+        <label for="quantity">Ilośc zamowien</label>
+        <input type="number" id="quantity" name="quantity" placeholder="Ilość zamowien"><br>
+        <input type="email" name="email" required placeholder="Podaj email"><br>
+        <input type="checkbox" id="agreement"> <label for="agreement">Zgoda na dane</label> <br>
+
+        <!-- radio buttons -->
+
+        <label><input type="radio" name="gender" value="male">Mężczyzna</label> <br>
+        <label><input type="radio" name="gender" value="female">Kobieta</label> <br>
+
+        <!-- 
+<input type="textarea" maxlength="1000" name="message"><br> -->
+
+
+        <textarea name="message" id="wiadomosc" cols="30" rows="10" placeholder="Napisz wiadomość"></textarea>
+
+        <select name="city" id="">
+            <option value="krk">Kraków</option>
+            <option value="gda" selected>Gdańsk</option>
+            <option value="waw">Warszawa</option>
+        </select>
+
+        <button>wyślij</button><br>
+        <input type="submit" name="wyslij"><br>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
