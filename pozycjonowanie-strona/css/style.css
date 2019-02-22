@@ -1,0 +1,147 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+body{
+    background-color: white;
+}
+h1{
+    color: #2a6fc2;
+    font-size: 70px;
+    display: inline-block;
+    margin-top: 125px;
+}
+h2{
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    float: right;
+    margin: 14px 15px 0px 15px;
+}
+address p{
+    color: white;
+    margin: 0 auto;
+    display: inline;
+}
+
+.circle{
+    background-color: #808080;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+        margin: 0 20px;
+        position: relative;
+}
+.circle_small{
+    background-color: #808080;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle_blue {
+    background-color: #2a6fc2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+}
+#container{
+    width: 95%;
+    margin: 0 auto;
+    /* position: absolute; */
+}
+#header{
+    background-color: #c9c9c9;
+    height: 350px;
+    position: relative;
+}
+#about,
+#contact{
+    background-color: #edce95;
+    position: relative;
+    padding-bottom: 75px;
+} 
+#portfolio{
+    padding-bottom: 75px;
+}   
+#data{
+    background-color: #2a6fc2;
+    width: 40%;
+    position: relative;
+    padding: 25px 0;
+}
+#menu{
+    position: sticky;
+    top: 0;
+height: 70px;
+background-color: white;
+z-index: 10;
+}
+
+#info{
+    font-size: 35px;
+    width: 40%;
+    background-color: white;
+    position: relative;
+    padding: 50px 0;
+}
+#info p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border-top: 350px solid #2a6fc2;
+    border-right: 30vw solid transparent;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#csmall1{
+    top: -25px;
+    left: -25px;
+}
+#csmall2{
+    top: -25px;
+    right: -25px;
+}
+#csmall3{
+    bottom: -25px;
+    left: -25px;
+}
+#csmall4{
+    bottom: -25px;
+    right: -25px;
+}
+#csmall5{
+    top: 10%;
+    left: -25px;
+}
+#csmall6{
+    bottom: 10%;
+    right: -25px;
+}
