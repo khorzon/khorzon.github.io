@@ -5,10 +5,6 @@
     background-color: black;
     padding: 0.5vh;
 }
-
-.clear{
-    clear: both;
-}
 .inner-circle{
 border-radius: 100%;
 border: 0.2vh solid black;
@@ -24,13 +20,10 @@ border: 0.75vh solid white;
 width:29vh;
 height: 29vh;
 }
-/* klasy do zerowania borderów */
-
 .bd_lp{
     border-left:0;
     border-right:0;
 }
-
 .bd_gd{
     border-top:0;
     border-bottom: 0;
@@ -38,59 +31,39 @@ height: 29vh;
 .bd_all{
     border: 0;
 }
-
-#box1{
-    background-color: red;
-}
-#box2{
-    background-color: violet;
-}
-#box3{
-    background-color: green;
-}
-#box4{
-    background-color: yellow;
-}
-#box5{
-    background-color: black;
-}
-#box6{
-    background-color: orange;
-}
-#box7{
-    background-color: darkblue;
-}
-#box8{
-    background-color: grey;
-
-}
+#circle1,
 #box9{
     background-color: lightpink;
 }
-#circle1{
-    background-color: lightpink;
-}
-#circle2{
+#circle2,
+#box8{
     background-color: grey;
 }
-#circle3{
+#circle3,
+#box7{
     background-color: darkblue;
 }
-#circle4{
+#circle4,
+#box3{
     background-color: green;
 }
-#circle5{
+#circle5,
+#box1{
     background-color: red;
 }
-#circle6{
+#circle6,
+#box2{
     background-color: violet;
 }
-#circle7{
+#circle7,
+#box6{
     background-color: orange;
 }
-#circle8{
+#circle8,
+#box4{
     background-color: yellow;
 }
-#circle9{
+#circle9,
+#box5{
     background-color: black;
 }

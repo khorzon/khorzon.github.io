@@ -1,43 +1,21 @@
-/* @media all and (min-width: 992px){
-    .background {
-        
-    }
-} */
-
 #gallery{
     width: 66vw;
 }
 figure{
     width: 32%;
 }
-
-
-
 @media all and (max-width: 992px){
     figure{
         width: 48%;
     }
 }
-
-
-
-
-
-
 @media all and (max-width: 768px){
     figure{
         width:100%;
     }
 }
-
-
-
-
 @media all and (max-width: 480px){
     #gallery {
         width: 100vw;
-    }
-    figure{
-        width: 100%
-    }
+   
 }
