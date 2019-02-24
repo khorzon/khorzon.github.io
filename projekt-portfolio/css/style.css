@@ -157,6 +157,7 @@ h2{
     margin: 0;
     padding:0;
     position: relative;
+    overflow: hidden;
 }
 figcaption{
     z-index: 10;
@@ -188,12 +189,18 @@ figcaption:hover{
     position: relative;
     object-fit: cover;
     object-position: center;
+    transition: all 0.4s ease-in-out;
+}
+#gallery figure img:hover{
+    transform: scale(2);
+    width: 120%;
+    height: 120%;
 }
 
 i{
     color: #007bff;
-    font-size: 68px;    
-    padding: 25px;
+    font-size: 60px;    
+    padding: 20px;
     border-radius: 12px;
     margin-top: 50px;
 }
@@ -232,9 +239,9 @@ i:hover{
     display: inline-block;
 }
 #social ul li{
-    display: inline;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 input{
     height: 40px;
