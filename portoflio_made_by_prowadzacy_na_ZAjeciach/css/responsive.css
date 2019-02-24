@@ -1,0 +1,54 @@
+@media all and (max-width: 992px) {
+    #portfolio .portfolio-inner figure {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #contact form {
+        width: 90%;
+    }
+
+    #portfolio .portfolio-inner figure {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .menu-label {
+        display: block;
+        text-align: right;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    #main-nav {
+        display: block;
+    }
+
+    #main-nav ul {
+        display: none;
+    }
+
+    #main-nav #menu:checked + ul {
+        display: block;
+    }
+
+    #main-nav ul li {
+        display: block;
+        text-align: right;
+    }
+
+    #about figure img {
+        width: 70%;
+    }
+
+    #about p {
+        width: 90%;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        flex-basis: 100%;
+    }
+}
