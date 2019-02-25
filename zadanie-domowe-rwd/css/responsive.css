@@ -1,0 +1,40 @@
+
+
+@media all and (max-width: 1170px){
+
+#tlo{
+    background-image: url('../obrazy/man-2.jpg');
+    height: 70%;
+}
+#tekst-flexbox{
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+}
+
+    
+}
+
+@media all and (max-width: 992px){
+#tlo {
+    background-image: url('../obrazy/man-1.jpg');
+    position: relative;
+    height: 50%;
+}
+#tekst-flexbox{
+    position: relative;
+    height: initial;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    
+}
+#tekst-flexbox h2,
+#tekst-flexbox h1{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#tekst{
+text-align: center;
+}
+}
