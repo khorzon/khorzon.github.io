@@ -1,0 +1,15 @@
+
+
+@media all and (max-width: 992px){
+    .product{
+        flex-basis: 45%; 
+    }
+}
+
+@media all and (max-width: 480px){
+    .product{
+        flex-basis: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
