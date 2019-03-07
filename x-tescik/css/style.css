@@ -1,0 +1,7 @@
+.transparent-circle {
+    background-color: rgba(204, 0, 102, 0);
+    border: 5px solid #000;
+    height:150px;
+    width:150px;
+border-radius: 75px;
+}

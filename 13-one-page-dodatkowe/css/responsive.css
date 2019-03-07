@@ -1,0 +1,60 @@
+@media all and (max-width: 1100px){
+    .worker{
+        flex-basis: 50%;
+    }
+    .team-circle{
+        width: 75%;
+        padding-top: 75%;
+    }      
+}
+@media all and (max-width: 768px){
+    .worker{
+        flex-basis: 100%;
+    }
+    .team-circle{
+        width: 25%;
+        padding-top: 25%;
+    }      
+}
+@media all and (max-width: 480px){
+    #home,
+    #team,
+    #skills,
+    #aboutus,
+    #contact,
+    #footer,
+    #navigation{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    }
+    .worker{
+        flex-basis: 100%;
+    }
+    .team-circle{
+        width: 50%;
+        padding-top: 50%;
+        border-radius: 50%;
+    }
+    input{
+        flex-basis: 100%;
+        margin-top: 25px;
+    }
+    textarea{
+        flex-basis: 100%;
+        margin-bottom:25px;
+    }
+    input[type="submit"]{
+        flex-basis: 100%;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+    .opinion-flex{
+        flex-basis: 100%;
+    }
+    .skill{
+        flex-basis: 50%;
+    }
+    form{
+        padding-bottom: 0;
+    }
+}
