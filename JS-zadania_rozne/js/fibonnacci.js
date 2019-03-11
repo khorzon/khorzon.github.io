@@ -1,4 +1,4 @@
-let searchedNumber = 50;
+let searchedNumber = 100;
 function fibonacci(number){
     if(number === 0 || number === 1){
         return number;
