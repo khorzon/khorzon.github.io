@@ -1,0 +1,25 @@
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+#pracownicy{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: space-between;
+    height: 100vh;
+}
+#pracownicy div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+#pracownicy div input,
+#pracownicy div span{
+    flex-basis: 8%;
+    text-align: center;
+}
