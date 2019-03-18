@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #31312f;
+
+}
+
+
+hr{
+    width: 300px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 32px;
+}
+.btn-link{
+    color: #f5a983;
+}
+.btn-link:hover{
+    color: darkslategrey;
+}
