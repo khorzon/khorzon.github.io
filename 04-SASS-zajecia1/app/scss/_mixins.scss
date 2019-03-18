@@ -1,0 +1,9 @@
+@mixin btn-primary($padding){
+
+    background-color: green;
+    padding: $padding;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}

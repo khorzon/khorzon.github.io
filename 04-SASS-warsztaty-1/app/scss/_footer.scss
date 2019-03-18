@@ -1,0 +1,41 @@
+footer{
+    background-color: $grey-color;
+    @include primary-flex;
+    @include primary-padding;
+    text-align: center;
+    div:not(:nth-of-type(3)){
+        flex-basis: 50%;
+       
+    }
+    div{
+        flex-basis: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            padding: 50px;
+            font-size: 12px;
+        }
+        i{
+            padding: 15px;
+            margin-top: 50px;
+            background-color: $yellow-color;    
+            color: $black-color;
+
+            font-size: 24px;
+        }
+        a{
+            text-decoration: none;
+            color: $white-color;
+            flex-basis: 100%;
+            margin-top: 20px;
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+    }
+
+}

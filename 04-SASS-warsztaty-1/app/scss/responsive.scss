@@ -1,0 +1,112 @@
+@import "variables";
+@import "mixins";
+
+@media all and (max-width: 1400px){
+    #main-with-nav     {
+        nav{
+            @include primary-padding-75;
+
+        }
+        .main{
+            @include primary-padding-75;
+
+            div{
+                flex-basis: 70%;
+            }
+        }
+    }
+    footer{
+        @include primary-padding-75;
+
+    }
+}
+
+
+
+@media all and (max-width: 980px){
+    #main-with-nav     {
+        nav{
+            @include primary-padding-50;
+
+            #logo,
+            #call{
+                justify-content: center;
+            
+            }
+            #call{
+                i{
+                    flex-basis: 40%;
+                }
+            }
+        }
+        .main{
+            @include primary-padding-50;
+            div{
+                flex-basis: 70%;
+            }
+        }
+    }
+    footer{
+        @include primary-padding-50;
+
+    }
+}
+
+
+
+@media all and (max-width: 768px){
+    #main-with-nav     {
+        nav{
+            @include primary-padding-10;
+
+            // justify-content: center;
+            #logo,
+            #call{
+                flex-basis: 100%;
+            }
+        }
+        .main{
+            @include primary-padding-10;
+
+            height: initial;
+            div{
+                flex-basis: 100%;
+            }
+        }
+    }
+    footer{
+        @include primary-padding-10;
+
+    }
+}
+
+
+
+
+@media all and (max-width: 480px){
+    #main-with-nav     {
+        nav{
+            @include primary-padding-10;
+
+        }
+        .main{
+            @include primary-padding-10;
+
+            height: initial;
+            div{
+                flex-basis: 100%;
+            }
+        }
+    }
+    footer{
+        @include primary-padding-10;
+
+        div:not(:nth-of-type(3)){
+            flex-basis: 100%;
+        }
+        div{
+            flex-basis: 100%;
+        }
+    }
+}
+

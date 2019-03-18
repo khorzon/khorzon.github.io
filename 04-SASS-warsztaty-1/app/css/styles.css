@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #fff; }
+
+#main-with-nav {
+  background: url("../img/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #main-with-nav nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px; }
+    #main-with-nav nav div {
+      flex-basis: 50%; }
+    #main-with-nav nav div:first-of-type {
+      text-align: left; }
+    #main-with-nav nav div:nth-of-type(2) {
+      text-align: right; }
+    #main-with-nav nav #logo {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      align-items: center; }
+      #main-with-nav nav #logo i {
+        color: #ecd407;
+        font-size: 48px;
+        margin: 0;
+        padding: 10px; }
+      #main-with-nav nav #logo h2 {
+        display: inline-block;
+        font-size: 32px;
+        margin: 0; }
+    #main-with-nav nav #call {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+      transition: all 0.4s ease-in-out; }
+      #main-with-nav nav #call i {
+        font-size: 48px;
+        flex-basis: 50%;
+        padding: 10px;
+        align-self: flex-start;
+        transform: rotate(90deg); }
+      #main-with-nav nav #call div {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: right; }
+        #main-with-nav nav #call div p {
+          flex-basis: 50%;
+          margin: 0; }
+        #main-with-nav nav #call div p:nth-of-type(2) {
+          font-size: 1.5em; }
+      #main-with-nav nav #call:hover {
+        color: #ecd407; }
+  #main-with-nav .main {
+    height: 800px;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end; }
+    #main-with-nav .main div {
+      display: flex;
+      flex-basis: 40%;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: left; }
+      #main-with-nav .main div h3 {
+        font-size: 24px;
+        font-weight: 700; }
+        #main-with-nav .main div h3 span {
+          color: #ecd407; }
+      #main-with-nav .main div form {
+        background-color: #001d8a;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px; }
+        #main-with-nav .main div form fieldset {
+          border: 0;
+          font-size: 18px;
+          font-weight: 700;
+          padding-top: 20px; }
+        #main-with-nav .main div form input:not([type="submit"]),
+        #main-with-nav .main div form textarea {
+          flex-basis: 100%;
+          padding: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px; }
+        #main-with-nav .main div form input[type="submit"] {
+          background-color: #ecd407;
+          flex-basis: 30%;
+          color: black;
+          padding: 25px;
+          border: none;
+          font-size: 1.25em;
+          font-weight: 700;
+          align-self: flex-start;
+          margin-top: 10px; }
+
+footer {
+  background-color: #292929;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center; }
+  footer div:not(:nth-of-type(3)) {
+    flex-basis: 50%; }
+  footer div {
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; }
+    footer div p {
+      padding: 50px;
+      font-size: 12px; }
+    footer div i {
+      padding: 15px;
+      margin-top: 50px;
+      background-color: #ecd407;
+      color: black;
+      font-size: 24px; }
+    footer div a {
+      text-decoration: none;
+      color: #fff;
+      flex-basis: 100%;
+      margin-top: 20px;
+      transition: all 0.4s ease-in-out; }
+      footer div a:hover {
+        color: #ecd407; }

@@ -1,0 +1,29 @@
+@mixin primary-padding{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+@mixin primary-padding-75{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+@mixin primary-padding-50{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@mixin primary-padding-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+@mixin primary-flex{
+    display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+}

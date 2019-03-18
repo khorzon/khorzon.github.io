@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#container').append('<button>Pobierz dane</button>');
     $('button').click(function () {
         loadData('https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php');
-    });
+    });:
 });
 function loadData(url) {
     $('#container').append('<div id="dane-programisty"></div>');
@@ -16,5 +16,10 @@ function loadData(url) {
     );
 
 }
+
+
+let zmienna = $(container);
+console.log(zmienna);
+
 
 

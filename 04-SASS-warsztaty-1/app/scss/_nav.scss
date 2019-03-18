@@ -1,0 +1,67 @@
+nav{    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+   @include primary-padding;
+   padding-top: 20px;
+   div{
+       flex-basis: 50%
+   }
+   div:first-of-type{
+       text-align: left;
+   }
+   div:nth-of-type(2){
+       text-align: right;
+   }
+   #logo{
+        @include primary-flex;
+        i{
+            color: $yellow-color;
+            font-size: $font-size-nav;
+            margin:0;
+            padding: 10px;
+        }
+        h2{
+            display: inline-block;
+            font-size: $h2-font-size;
+            margin: 0;
+        }
+       
+   }
+   #call{
+         display: flex;
+         flex-flow: row wrap;
+         align-items:  center;
+         justify-content: flex-end;
+         cursor: pointer;
+         transition: all 0.4s ease-in-out;
+
+          i{
+              font-size: $font-size-nav;
+             flex-basis: 50%;
+             padding: 10px;
+             align-self: flex-start;
+             transform: rotate(90deg);
+         }
+         
+           div{
+               display: flex;
+            //    flex-basis: 50%;
+               flex-flow: column wrap;
+               justify-content: center;
+               align-items: right;
+                   p{
+                    flex-basis: 50%;
+                    margin:0;
+                   }
+                   p:nth-of-type(2){
+                       font-size: 1.5em;
+                   }
+               
+           }
+           &:hover{
+            color: $yellow-color;
+        }
+    }
+}

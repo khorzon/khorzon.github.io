@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+
+body{
+    background-color: $primary-color;
+}
+h1{
+    color: $secondary-color;
+}
+
+nav{
+    background-color: aliceblue;
+    ul{
+        li{ background-color: yellow;
+            margin:0;
+            a{
+                color: $secondary-color;
+            }
+        }
+    }
+}
+.test{
+    button{
+        @include btn-primary(40px );
+        &:hover{
+            background-color: red;
+
+        }
+    }
+    .btn-second{
+        @include btn-primary(60px);
+    }
+}

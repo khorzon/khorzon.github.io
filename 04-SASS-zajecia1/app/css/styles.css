@@ -1,0 +1,42 @@
+body {
+  background-color: #225588;
+}
+
+h1 {
+  color: #148147;
+}
+
+nav {
+  background-color: aliceblue;
+}
+
+nav ul li {
+  background-color: yellow;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #148147;
+}
+
+.test button {
+  background-color: green;
+  padding: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+.test button:hover {
+  background-color: red;
+}
+
+.test .btn-second {
+  background-color: green;
+  padding: 60px;
+  font-size: 32px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}

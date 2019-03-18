@@ -1,0 +1,65 @@
+@media all and (max-width: 1400px) {
+  #main-with-nav nav {
+    padding-left: 75px;
+    padding-right: 75px; }
+  #main-with-nav .main {
+    padding-left: 75px;
+    padding-right: 75px; }
+    #main-with-nav .main div {
+      flex-basis: 70%; }
+  footer {
+    padding-left: 75px;
+    padding-right: 75px; } }
+
+@media all and (max-width: 980px) {
+  #main-with-nav nav {
+    padding-left: 50px;
+    padding-right: 50px; }
+    #main-with-nav nav #logo,
+    #main-with-nav nav #call {
+      justify-content: center; }
+    #main-with-nav nav #call i {
+      flex-basis: 40%; }
+  #main-with-nav .main {
+    padding-left: 50px;
+    padding-right: 50px; }
+    #main-with-nav .main div {
+      flex-basis: 70%; }
+  footer {
+    padding-left: 50px;
+    padding-right: 50px; } }
+
+@media all and (max-width: 768px) {
+  #main-with-nav nav {
+    padding-left: 10px;
+    padding-right: 10px; }
+    #main-with-nav nav #logo,
+    #main-with-nav nav #call {
+      flex-basis: 100%; }
+  #main-with-nav .main {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: initial; }
+    #main-with-nav .main div {
+      flex-basis: 100%; }
+  footer {
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media all and (max-width: 480px) {
+  #main-with-nav nav {
+    padding-left: 10px;
+    padding-right: 10px; }
+  #main-with-nav .main {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: initial; }
+    #main-with-nav .main div {
+      flex-basis: 100%; }
+  footer {
+    padding-left: 10px;
+    padding-right: 10px; }
+    footer div:not(:nth-of-type(3)) {
+      flex-basis: 100%; }
+    footer div {
+      flex-basis: 100%; } }

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    color: #31312f;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    height: 100%;
+}
+i{
+    font-size: 72px;
+    color:#e38f42;
+}
+i+p{
+    display: block;
+    font-size: 24px;
+    padding: 40px;
+    font-weight: 300;
+}
+hr{
+    width: 300px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 32px;
+    
+}

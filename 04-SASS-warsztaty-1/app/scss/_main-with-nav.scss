@@ -1,0 +1,10 @@
+#main-with-nav{
+    background: url('../img/background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    @import "nav";
+
+    @import "main";
+}
