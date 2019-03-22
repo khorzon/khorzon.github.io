@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Responsive Form</title>
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <div id="header">
+        <h1>Zapisz się do naszego newslettera</h1>
+        <h2>I odbierz <span>10%</span> rabatu na swoje zakupy!</h2>
+    </div>
+
+
+    <div id="background">
+
+    </div>
+    <!-- Header end -->
+
+    <!-- Container start -->
+    <div id="container">
+
+
+        <div id="info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facere explicabo repellendus. Laboriosam
+                cumque ea voluptate qui! Debitis eos voluptatum eum, illum, doloremque sit nostrum nobis fugiat at, quam
+                consequatur. Magni perferendis blanditiis facere similique temporibus rerum qui eius, soluta aperiam
+                tempora. Explicabo mollitia eveniet nostrum, odio dolorum sunt similique voluptates! Vel autem, magni
+                omnis eos facere voluptate maxime error. Odit eos molestiae consequatur qui sint amet possimus rem nobis
+                pariatur delectus ipsum itaque exercitationem saepe facilis, obcaecati, ut numquam. Omnis, rerum!
+                Laudantium voluptatum quibusdam modi autem harum doloremque reprehenderit qui iste possimus eum,
+                voluptas dolor necessitatibus nisi sapiente exercitationem?</p>
+        </div>
+
+        <!-- Start form -->
+        <form action="sendItToPHPScript.php">
+            <input type="text" id="imie" name="imie" placeholder="imię">
+            <p class="alert-box"></p> <!-- Invisible Alert box - it is holding place for possible alerts -->
+            <input type="email" id="email" name="email" placeholder="e-mail*">
+            <p class="alert-box"></p> <!-- Invisible Alert box - it is holding place for possible alerts -->
+            <input type="tel" id="tel" name="tel" placeholder="nr telefonu">
+            <p class="alert-box"></p> <!-- Invisible Alert box - it is holding place for possible alerts -->
+            <select name="city" id="city">
+                <option value="Krakow">Kraków</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Poznan">Poznań</option>
+                <option value="Gdansk">Gdańsk</option>
+            </select>
+            <!-- Radio buttons start -->
+            <label for="agreement1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quaerat sint quasi
+                non numquam deserunt. <div class="tooltip">[Rozwiń]<span class="tooltiptext">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Reprehenderit, pariatur.</span></div></label>
+            <input type="radio" name="agreement1" value="agreement1" id="agreement1">
+            <p class="alert-box"></p> <!-- Invisible Alert box - it is holding place for possible alerts -->
+            <label for="agreement2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita aspernatur, odit
+                laboriosam minima quod animi! <div class="tooltip">[Rozwiń] <span class="tooltiptext">Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Reprehenderit, pariatur.</span></div></label>
+            <input type="radio" name="agreement2" value="agreement2" id="agreement2">
+            <p class="alert-box"></p> <!-- Invisible Alert box - it is holding place for possible alerts -->
+
+            <input type="submit" value="Wyślij">
+            <!-- Radio buttons end -->
+
+        </form>
+        <!-- End Form -->
+    </div>
+    <!-- End of container -->
+
+
+    <!-- JQuery  -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Main Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

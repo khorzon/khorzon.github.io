@@ -1,0 +1,100 @@
+@media all and (max-width: 1600px) {
+    /* Change of main section */
+    #container {
+        padding: 0 200px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    /* Change of main section */
+    #container {
+        padding: 0 100px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    /* Change of Header Section  */
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h1, h2 {
+        margin: 20px;
+    }
+    /* Change of main section */
+    #container {
+        padding: 0 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    /* Change of Header Section  */
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h1, h2 {
+        margin: 10px;
+    }
+    /* Change of Main Section */
+    #container {
+        padding: 0 20px;
+        flex-flow: row-reverse wrap;
+        height: 600px;
+        justify-content: center;
+        position: absolute;
+    }
+    #container div, #container form {
+        flex-basis: 75%;
+    }
+    #info {
+        order: 2;
+    }
+    #background {
+        height: 600px;
+    }
+    #container form {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #container form input[type="submit"] {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    /* Change of Header Section  */
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h1, h2 {
+        margin: 5px;
+    }
+    /* Change of Main Section */
+    #container {
+        padding: 0 5px;
+    }
+    #container div, #container form {
+        flex-basis: 100%;
+    }
+    #info {
+        order: 2;
+    }
+    #background {
+        height: 540px;
+    }
+    #container form {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #container form input[type="submit"] {
+        flex-basis: 100%;
+    }
+}

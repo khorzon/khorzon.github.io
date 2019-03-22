@@ -1,0 +1,167 @@
+/* Main setings section */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/* Header Section */
+
+#header {
+    text-align: center;
+    position: relative;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin: 40px 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h2 span {
+    font-size: 2em;
+}
+
+/* Main Section */
+
+#background {
+    position: absolute;
+    background: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#container {
+    padding: 0 400px;
+    height: 600px;
+    padding-top: 25px;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+}
+
+/* Flex Items Section */
+
+#container div, #container form {
+    flex-basis: 45%;
+}
+
+#container #info {
+    overflow-y: scroll;
+    height: 170px;
+}
+
+#container form {
+    height: 500px;
+    background-color: rgba(36, 36, 36, 0.9);
+}
+
+#container form {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#container form input:not([type="radio"]), #container form select {
+    flex-basis: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+}
+
+#container form input[type="submit"] {
+    flex-basis: 40%;
+    align-self: flex-end;
+    align-content: flex-end;
+    padding: 10px 35px;
+    transition: all 0.4s ease-in-out;
+}
+
+#container form input[type="submit"]:hover{
+    background-color: #7f962f;
+    cursor: pointer;
+}
+
+#container form input[type="radio"] {
+    flex-basis: 5%;
+}
+
+#container form label {
+    flex-basis: 90%;
+    font-size: 11px;
+    color: white;
+}
+
+#container form input::placeholder {
+    color: black;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+}
+.tooltiptext{
+        visibility: hidden;
+        width: 120px;
+        opacity: 0;
+        background-color: rgba(36, 36, 36, 1);
+        color: #7f962f;
+        text-align: center;
+        padding: 5px 5px;
+        border-radius: 15px;
+        position: absolute;
+        z-index: 3;
+        top: -5px;
+        right: 105%;
+        transition: all 0.4s ease-in-out;
+}
+.tooltip:hover .tooltiptext{
+    opacity:1;
+    visibility: initial;
+}
+label .tooltip {
+    color: #7f962f;
+}
+
+
+/* Alert Classes */
+
+.alert-box{
+    height: 10px;
+    /* visibility: hidden; */
+    flex-basis: 100%;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+}
+
+.red-alert-no-data{
+    color: #e90027;
+    font-size: 10px;
+    display: inline-block;
+    flex-basis: 100%;
+    z-index: 2;
+    padding: 0;
+    margin:0;
+}
